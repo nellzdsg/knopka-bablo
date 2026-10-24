@@ -89,9 +89,16 @@
   var faqHost = document.getElementById('faq-list');
   if (faqHost) faqHost.innerHTML = SITE.faq.map(faqItem).join('');
 
-  var botsCount = SITE.categories.reduce(function (sum, cat) {
-    return sum + cat.items.length;
-  }, 0);
+  /* один и тот же бот может стоять в нескольких разделах — считаем по ссылке */
+  var seenUrls = {};
+  var botsCount = 0;
+  SITE.categories.forEach(function (cat) {
+    cat.items.forEach(function (item) {
+      if (seenUrls[item.url]) return;
+      seenUrls[item.url] = true;
+      botsCount += 1;
+    });
+  });
 
   var statBots = document.querySelector('[data-stat="bots"]');
   var statCats = document.querySelector('[data-stat="cats"]');

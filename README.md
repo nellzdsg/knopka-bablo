@@ -3,7 +3,7 @@
 # Кнопка Бабло
 
 **Бесплатная халява в Telegram: скины CS2, кейсы, NFT-подарки и заработок.**
-Восемь проверенных ботов, без регистрации на сайте и без вложений.
+Девять проверенных ботов, без регистрации на сайте и без вложений.
 
 [**Открыть сайт →**](https://nellzdsg.github.io/knopka-bablo/)
 
@@ -23,14 +23,17 @@
 
 | Раздел | Что дают | Ботов |
 | --- | --- | --- |
-| **STEAM** | Скины CS2, кейсы и предметы прямо в инвентарь | 2 |
-| **NFT GIFTS** | Подарки, рулетки и кейсы внутри Telegram | 5 |
-| **CASH** | Заработок на заданиях, выплаты внутри Telegram | 1 |
+| **STEAM** | Скины CS2, кейсы и предметы прямо в инвентарь | 3 |
+| **NFT GIFTS** | Подарки, рулетки и кейсы внутри Telegram | 6 |
+| **CASH** | Заработок на заданиях, выплаты внутри Telegram | 2 |
+
+**Rubup** стоит во всех трёх разделах, поэтому в сумме по таблице 11 карточек, а разных ботов — 9.
 
 ### STEAM
 
 - **[SkinSetup](https://t.me/skinsetup_bot?startapp=ref_1255193535)** — скины CS2, апгрейд инвентаря и бонус новичку.
 - **[RPlayz](https://t.me/RPlayz_bot?start=A1NQUwFbB1NRVw==)** — кейсы и рулетка на предметы Steam.
+- **[Rubup](https://t.me/rubup?startapp=r_1255193535_603008)** — бонусы и задания внутри Telegram.
 
 ### NFT GIFTS
 
@@ -39,10 +42,12 @@
 - **[Trade](https://t.me/trade/app?startapp=ref_byLj8LSDxhTH9otC)** — маркет NFT-подарков: покупка и обмен.
 - **[Agent301](https://t.me/Agent301Bot/app?startapp=ref_FTdXjZ)** — кейсы, подарки и ежедневный фарм.
 - **[Banda Gift](https://t.me/bandagiftbot/app?startapp=openRouletteMain_inviteCodeLP4zUEIon8QrCmX6_adSegmentCode=freespininlineshare44)** — фриспины в рулетке подарков.
+- **[Rubup](https://t.me/rubup?startapp=r_1255193535_603008)** — бонусы и задания внутри Telegram.
 
 ### CASH
 
 - **[Jobseo](https://telegram.me/jobseo_bot?start=user1255193535)** — заработок и задания внутри Telegram.
+- **[Rubup](https://t.me/rubup?startapp=r_1255193535_603008)** — бонусы и задания внутри Telegram.
 
 ## Как забрать халяву
 
@@ -76,6 +81,7 @@
 
 ## Обновления
 
+- **24.10.2026** — Rubup добавлен сразу в три раздела. Итого 9 разных ботов.
 - **24.10.2026** — новый раздел CASH: Jobseo. Итого 8 ботов в трёх разделах.
 - **24.10.2026** — запуск: 7 ботов в двух разделах.
 
