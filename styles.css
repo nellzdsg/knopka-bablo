@@ -728,6 +728,11 @@ ol {
   --b: #f472b6;
   --c: #f5d0fe;
 }
+.tile[data-tone="cash"] {
+  --a: #34d399;
+  --b: #14b8a6;
+  --c: #a7f3d0;
+}
 
 /* ---------- карточки ---------- */
 
@@ -736,6 +741,11 @@ ol {
   flex-wrap: wrap;
   justify-content: center;
   gap: 14px;
+}
+
+/* одинокая карточка в разделе — по левому краю, как и подпись раздела */
+.cards:has(.card:only-child) {
+  justify-content: flex-start;
 }
 
 .card {

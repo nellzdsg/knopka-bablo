@@ -78,6 +78,23 @@ window.SITE = {
         },
       ],
     },
+    {
+      id: 'cash',
+      title: 'CASH',
+      icon: 'wallet',
+      tone: 'cash',
+      note: 'Условия и выплаты — внутри бота.',
+      items: [
+        {
+          name: 'Jobseo',
+          desc: 'Заработок и задания внутри Telegram',
+          badge: 'заработок',
+          icon: 'briefcase',
+          tone: 'cash',
+          url: 'https://telegram.me/jobseo_bot?start=user1255193535',
+        },
+      ],
+    },
   ],
 
   faq: [
