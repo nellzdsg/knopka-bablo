@@ -743,11 +743,6 @@ ol {
   gap: 14px;
 }
 
-/* одинокая карточка в разделе — по левому краю, как и подпись раздела */
-.cards:has(.card:only-child) {
-  justify-content: flex-start;
-}
-
 .card {
   position: relative;
   display: flex;
