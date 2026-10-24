@@ -324,62 +324,6 @@ ol {
   gap: 10px;
 }
 
-.lite {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 12px 6px 7px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.02);
-  color: var(--muted);
-  font: inherit;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  cursor: pointer;
-  transition: color 0.2s, border-color 0.2s;
-}
-
-.lite:hover {
-  color: var(--text);
-  border-color: var(--line-2);
-}
-
-.lite__track {
-  position: relative;
-  width: 32px;
-  height: 17px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.1);
-  transition: background 0.25s;
-}
-
-.lite__dot {
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background: #cfc7e4;
-  transition: transform 0.25s var(--ease), background 0.25s;
-}
-
-.lite[aria-checked="true"] {
-  color: #f5e9ff;
-  border-color: rgba(232, 121, 249, 0.4);
-}
-
-.lite[aria-checked="true"] .lite__track {
-  background: var(--grad);
-}
-
-.lite[aria-checked="true"] .lite__dot {
-  transform: translateX(15px);
-  background: #1a0b24;
-}
-
 .burger {
   display: none;
   width: 40px;
@@ -1356,10 +1300,6 @@ ol {
     height: 62px;
   }
 
-  .lite {
-    padding: 5px 10px 5px 6px;
-  }
-
   .hero {
     padding-top: 44px;
   }
@@ -1408,45 +1348,7 @@ ol {
   }
 }
 
-/* ---------- LITE и reduced motion ---------- */
-
-html.lite .glow,
-html.lite .dot,
-html.lite .card::before {
-  display: none;
-}
-
-html.lite .hdr.is-scrolled,
-html.lite .totop {
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-}
-
-html.lite .hdr.is-scrolled {
-  background: #0c0716;
-}
-
-html.lite .totop {
-  background: #140c22;
-}
-
-html.lite .card:hover,
-html.lite .contact:hover,
-html.lite .btn:hover {
-  transform: none;
-  box-shadow: none;
-}
-
-html.lite .hero__in > * {
-  animation: none;
-}
-
-html.lite *,
-html.lite *::before,
-html.lite *::after {
-  transition: none !important;
-  animation: none !important;
-}
+/* ---------- reduced motion ---------- */
 
 @media (prefers-reduced-motion: reduce) {
   html {

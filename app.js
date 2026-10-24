@@ -2,28 +2,7 @@
 (function () {
   'use strict';
 
-  var root = document.documentElement;
-
   var SITE = window.SITE || { categories: [], faq: [] };
-  var LS_LITE = 'kb:lite';
-
-  var store = {
-    get: function (key, fallback) {
-      try {
-        var raw = localStorage.getItem(key);
-        return raw ? JSON.parse(raw) : fallback;
-      } catch (e) {
-        return fallback;
-      }
-    },
-    set: function (key, value) {
-      try {
-        localStorage.setItem(key, JSON.stringify(value));
-      } catch (e) {
-        /* приватный режим — молча живём без сохранения */
-      }
-    },
-  };
 
   /* ---------- разметка ---------- */
 
@@ -179,24 +158,6 @@
 
   if (document.fonts && document.fonts.ready) {
     document.fonts.ready.then(syncOpenPanels);
-  }
-
-  /* ---------- LITE ---------- */
-
-  var liteBtn = document.getElementById('lite');
-
-  function setLite(on, save) {
-    root.classList.toggle('lite', on);
-    if (liteBtn) liteBtn.setAttribute('aria-checked', String(on));
-    if (save) store.set(LS_LITE, on);
-  }
-
-  setLite(store.get(LS_LITE, false) === true, false);
-
-  if (liteBtn) {
-    liteBtn.addEventListener('click', function () {
-      setLite(!root.classList.contains('lite'), true);
-    });
   }
 
   /* ---------- копирование ---------- */
