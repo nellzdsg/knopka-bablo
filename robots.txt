@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nellzdsg.github.io/knopka-bablo/sitemap.xml
