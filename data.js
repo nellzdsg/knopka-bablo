@@ -45,7 +45,7 @@ window.SITE = {
       note: 'Достаточно Telegram: подарки — это NFT-стикеры внутри Telegram.',
       items: [
         {
-          name: 'Case24',
+          name: 'Virus Game',
           desc: 'Кейсы и рулетка с NFT-подарками',
           badge: 'кейсы',
           icon: 'boxes',

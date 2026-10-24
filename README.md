@@ -37,7 +37,7 @@
 
 ### NFT GIFTS
 
-- **[Case24](https://t.me/virus_play_bot/app?startapp=roulette_inviteCodebH6KGdXDO7K4zKil)** — кейсы и рулетка с NFT-подарками.
+- **[Virus Game](https://t.me/virus_play_bot/app?startapp=roulette_inviteCodebH6KGdXDO7K4zKil)** — кейсы и рулетка с NFT-подарками.
 - **[Chance](https://t.me/ChanceAppBot?startapp=ref1255193535)** — рулетка подарков и розыгрыши для новичков.
 - **[Trade](https://t.me/trade/app?startapp=ref_byLj8LSDxhTH9otC)** — маркет NFT-подарков: покупка и обмен.
 - **[Agent301](https://t.me/Agent301Bot/app?startapp=ref_FTdXjZ)** — кейсы, подарки и ежедневный фарм.
