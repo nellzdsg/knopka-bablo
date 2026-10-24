@@ -5,7 +5,6 @@
   var root = document.documentElement;
 
   var SITE = window.SITE || { categories: [], faq: [] };
-  var LS_OPEN = 'kb:open';
   var LS_LITE = 'kb:lite';
 
   var store = {
@@ -154,20 +153,13 @@
     );
   }
 
-  var openState = store.get(LS_OPEN, {});
-
+  /* При заходе на сайт все разделы свёрнуты — состояние не запоминаем. */
   var cats = Array.prototype.slice.call(document.querySelectorAll('.cat'));
-  cats.forEach(function (cat, index) {
-    var id = cat.getAttribute('data-cat');
-    var saved = openState[id];
-    var open = typeof saved === 'boolean' ? saved : index === 0;
-    setOpen(cat, open, false);
+  cats.forEach(function (cat) {
+    setOpen(cat, false, false);
 
     cat.querySelector('.cat__btn').addEventListener('click', function () {
-      var next = !cat.classList.contains('is-open');
-      setOpen(cat, next, true);
-      openState[id] = next;
-      store.set(LS_OPEN, openState);
+      setOpen(cat, !cat.classList.contains('is-open'), true);
     });
   });
 
